@@ -1,0 +1,57 @@
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  margin-top: 7rem;
+}
+.home-img{
+  width: 60%;
+  border-radius: 50%;
+  margin-left: 10rem;
+}
+.content{
+  margin-left: 5rem;
+  width: 100%;
+}
+.content h1{
+  font-size: 4rem;
+  background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content h1 span{
+  font-size: 3rem;
+  color: azure;
+}
+.content-para{
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+.btn{
+  background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
+  color: azure;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  transition: 1s;
+  cursor: pointer;
+  color: black;
+}
+.btn span{
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
