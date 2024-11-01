@@ -26,6 +26,7 @@ function Home() {
       <div className='image'>
         <img src={HomeImg} alt="Sophia's Picture" className='home-img'></img>
       </div>
+      <div className='up'><b><a href='#home'>^</a></b></div>
     </div>
   )
 }

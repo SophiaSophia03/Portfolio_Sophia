@@ -8,3 +8,10 @@ body{
   color: azure;
   font-family: "PT Serif", serif;
 }
+h1{
+    font-size: 4rem;
+    background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

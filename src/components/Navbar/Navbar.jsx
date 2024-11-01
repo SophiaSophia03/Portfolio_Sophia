@@ -4,13 +4,13 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <div className='navbar'>
-    <h1 className='logo'>Sophia</h1>
+    <span className='logo'>Sophia</span>
     <ul className='nav-menu'>
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Skills</li>
-      <li>Projects</li>
-      <li>Cerificates</li>
+      <li><a href='#home'>Home</a></li>
+      <li><a href='#about'>About Me</a></li>
+      <li><a href='#skills'>Skills</a></li>
+      <li><a href='#home'>Projects</a></li>
+      <li><a href='#home'>Cerificates</a></li>
     </ul>
     <button className='nav-connect'>Connect With me</button>
     </div>

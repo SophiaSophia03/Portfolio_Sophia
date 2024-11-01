@@ -5,6 +5,9 @@
   margin: 1rem 3rem;
   font-weight: bold;
 }
+.navbar span{
+  font-size: 2rem;
+}
 .nav-menu{
   display: flex;
   align-items: center;
@@ -32,4 +35,8 @@
 }
 .nav-connect:hover{
   transform: scale(1.1);
+}
+a{
+  text-decoration: none;
+  color: azure;
 }

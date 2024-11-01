@@ -55,3 +55,9 @@
 .btn:hover{
   transform: scale(1.1);
 }
+.up{
+  font-size: 5rem;
+  position: fixed;
+  bottom: 0;
+  right: 5rem;
+}
