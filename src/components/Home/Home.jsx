@@ -26,7 +26,7 @@ function Home() {
       <div className='image'>
         <img src={HomeImg} alt="Sophia's Picture" className='home-img'></img>
       </div>
-      <div className='up'><b><a href='#home'>^</a></b></div>
+      <div className='up'><b><a href='#home'><i class="fa-solid fa-angles-up shadow"></i></a></b></div>
     </div>
   )
 }

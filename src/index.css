@@ -15,3 +15,11 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.shadow{
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5), /* Main shine effect */
+  inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
+}
+.shadow:hover{
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), /* Main shine effect */
+  inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
+}

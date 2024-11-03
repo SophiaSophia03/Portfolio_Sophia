@@ -24,7 +24,7 @@ function Skills() {
   return (
     <div className='skills' id='skills'>
     <h1>Skills</h1>
-    <div className='icons'>
+    <div className='icons shadow'>
       <div className='frontend block'>
         {/* <h2>Front End</h2> */}
         <div className="icons-frontend icon">

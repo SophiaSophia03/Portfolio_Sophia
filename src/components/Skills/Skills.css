@@ -27,17 +27,23 @@ h2{
 }
 .icon img{
   width: 4rem;
+  transition: 1s;
 }
 .icon img:hover{
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5), /* Main shine effect */
   inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
-  border-radius: 1rem;
+  transform: scale(1.1);
+
 
 }
 .icons{
   background-color:#00052b;
   padding: 2rem 6rem;
   border-radius: 3rem;
+}
+.icons:hover{
+  transform: scale(1.1);
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), /* Main shine effect */
   inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
+  transition: 1.5s;
 }
