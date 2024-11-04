@@ -47,3 +47,17 @@ h2{
   inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
   transition: 1.5s;
 }
+@media(max-width:768px){
+  .skills{
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .icon img{
+    width: 2rem;
+    transition: 1s;
+  }
+  .icons{
+    width: 300px;
+  }
+}

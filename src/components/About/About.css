@@ -20,3 +20,11 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
+@media(max-width:768px){
+  .about{
+    gap: 50px;
+    margin: 100px 70px;
+    align-items: start;
+    width: 400px;
+  }
+}

@@ -1,48 +1,39 @@
 .home{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 100%;
-  width: 100%;
-  margin-top: 7rem;
+  flex-direction: column;
+  gap: 20px;
 }
 .home-img{
-  width: 60%;
   border-radius: 50%;
-  margin-left: 10rem;
+  width: 200px;
+  margin-top: 25px;
 }
-.content{
-  margin-left: 5rem;
-  width: 100%;
+.home-h1{
+  text-align: center;
+  width: 70%;
+  font-size: 60px;
+  font-weight: 600;
 }
-.content h1{
-  font-size: 4rem;
-  background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.home-p{
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
 }
-.content h1 span{
-  font-size: 3rem;
-  color: azure;
-}
-.content-para{
-  line-height: 1.7rem;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-.links{
+.hero-action{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 3rem;
-  margin-top: 1.5rem;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  flex-wrap: wrap;
 }
 .btn{
   background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
   color: azure;
-  padding: 1rem;
-  border-radius: 2rem;
+  padding: 15px 45px;
+  border-radius: 50px;
   font-size: 1.2rem;
   transition: 1s;
   cursor: pointer;
@@ -55,9 +46,39 @@
 .btn:hover{
   transform: scale(1.1);
 }
+
 .up{
   font-size: 2rem;
   position: fixed;
   bottom: 0;
   right: 5rem;
+}
+@media(max-width:768px){
+  .home{
+    gap: 50px;
+    margin: 50px 10px;
+    align-items: center;
+    width: 636px;
+  }
+  .home-content{
+    margin: 0;
+    padding: 0;
+  }
+  .home-img{
+    margin-top: 50px;
+    width: 260px;
+    margin-bottom: 50px;
+  }
+  .home-content h1{
+    width: 90%;
+    font-size: 50px;
+  }
+  .content-para {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn{
+    padding: 15px 30px;;
+  }
 }
