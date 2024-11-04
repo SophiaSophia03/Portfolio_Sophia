@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-    <span className='logo'>Sophia</span>
+    <span className='logo'><a href='#home'>Sophia</a></span>
     <i class="fa-solid fa-bars menu-open" onClick={openMenu}></i>
     <ul ref={menuRef} className='nav-menu'>
     <i class="fa-solid fa-xmark menu-close" onClick={closeMenu}></i>

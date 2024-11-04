@@ -28,14 +28,17 @@ justify-content: center;
   text-align: center;
   padding: 20px;
   width: 500px;
-  background-color:#000106 ;
+  background-color:#00052b ;
   gap: 2rem;
   border-radius: 30px;
   transition: 0.5s;
   border: 1px solid rgb(118, 118, 118);
+  transition: 2s;
 }
 .projects-container:hover{
-  transform: scale(1);
+  transform: scale(1.1);
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), /* Main shine effect */
+  inset 0 0 15px rgba(255, 255, 255, 0.3);
 }
 .project-btn{
   margin: 1rem 1rem 0 1rem;
@@ -68,29 +71,5 @@ h2{
     width: inherit;
   }
 
-
-
-
-
-
-  /* .box{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-    border-radius: 2rem;
-  }
-  .project-img{
-    width: inherit;
-  }
-  .box:hover{
-    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5),
-  inset 0 0 15px rgba(255, 255, 255, 0.3);
-  }
-  .desc ul{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  } */
 
 }

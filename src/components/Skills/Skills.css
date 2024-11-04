@@ -45,7 +45,7 @@ h2{
   transform: scale(1.1);
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), /* Main shine effect */
   inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
-  transition: 1.5s;
+  transition: 2s;
 }
 @media(max-width:768px){
   .skills{

@@ -18,6 +18,7 @@ import reduxImg from '../../assets/icons/Redux.png';
 import tailwindImg from '../../assets/icons/Tailwind.png';
 import vitejsImg from '../../assets/icons/Vitejs.png';
 import vscodeImg from '../../assets/icons/VSCode.png';
+import materialUIImg from '../../assets/icons/MaterialUI.png';
 
 
 function Skills() {
@@ -33,6 +34,7 @@ function Skills() {
           <img src={reactImg}></img>
           <img src={reduxImg}></img>
           <img src={vitejsImg}></img>
+          <img src={materialUIImg}></img>
         </div>
       </div>
       <div className='styling block'>

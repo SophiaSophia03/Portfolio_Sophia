@@ -34,8 +34,12 @@ function Project() {
           <img src={mongoImg}></img></h3>
           <p className='project-para'>StayNest offers essential features like secure login, full CRUD operations for property listings, interactive Mapbox integration, and user-only access for editing/deleting their own listings. Users can add reviews, view success/error messages, and enjoy smooth input validations, creating a reliable and engaging rental platform.</p>
           <div className='project-btn'>
+          <a href='https://staynest-uvyb.onrender.com/'>
             <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
+          </a>
+          <a href='https://github.com/SophiaSophia03/StayNest.git'>
             <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
+          </a>
           </div>
         </div>
       </div>
@@ -59,8 +63,12 @@ function Project() {
           Reviews and Ratings: Add, view, and delete reviews on listings
           Input Validations: Ensures data integrity and smooth experience</p>
           <div className='project-btn'>
+          <a href='https://staynest-uvyb.onrender.com/'>
             <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
+          </a>
+          <a href='https://github.com/SophiaSophia03/StayNest.git'>
             <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
+          </a>
           </div>
         </div>
       </div>
@@ -68,141 +76,6 @@ function Project() {
       </div>
 
     </div>
-
-
-
-
-
-    // <div className='projects' id='projects'>
-    // <h1>Projects</h1>
-    // <div className='projects-container'>
-
-    //   <div className='first-project box'>
-    //     <img src={staynestImg} className='shadow img'></img>
-    //     <div className='project-content'>
-    //     <div className='desc'>
-    //     <h2>StayNest</h2>
-    //     <h3>
-    //     Using:<img src={htmlImg}></img>
-    //       <img src={jsImg}></img>
-    //       <img src={bootstrapImg}></img>
-    //       <img src={nodeImg}></img>
-    //       <img src={expressImg} style={{backgroundColor: "white"}}></img>
-    //       <img src={npmImg}></img>
-    //       <img src={mongoImg}></img>
-    //     </h3>
-    //     <h3>Key Features:</h3>
-    //     <ul>
-    //       <li>User Authentication: Secure login and sign-up</li>
-    //       <li>Listing Management: Full CRUD operations for property listings</li>
-    //       <li>Map Integration: Interactive Mapbox maps for location display</li>
-    //       <li>User Access Control: Only listing owners can edit/delete their properties</li>
-    //       <li>Reviews and Ratings: Add, view, and delete reviews on listings</li>
-    //       <li>Input Validations: Ensures data integrity and smooth experience</li>
-    //     </ul>
-    //     </div>
-    //     <div className='project-btn'>
-    //       <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
-    //       <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
-    //     </div>
-    //     </div>
-    //   </div>
-
-    //   <div className='second-project box'>
-    //     <img src={staynestImg} className='shadow img'></img>
-    //     <div className='project-content'>
-    //     <div className='desc'>
-    //     <h2>StayNest</h2>
-    //     <h3>
-    //     Using:<img src={htmlImg}></img>
-    //       <img src={jsImg}></img>
-    //       <img src={bootstrapImg}></img>
-    //       <img src={nodeImg}></img>
-    //       <img src={expressImg} style={{backgroundColor: "white"}}></img>
-    //       <img src={npmImg}></img>
-    //       <img src={mongoImg}></img>
-    //     </h3>
-    //     <h3>Key Features:</h3>
-    //     <ul>
-    //       <li>User Authentication: Secure login and sign-up</li>
-    //       <li>Listing Management: Full CRUD operations for property listings</li>
-    //       <li>Map Integration: Interactive Mapbox maps for location display</li>
-    //       <li>User Access Control: Only listing owners can edit/delete their properties</li>
-    //       <li>Reviews and Ratings: Add, view, and delete reviews on listings</li>
-    //       <li>Input Validations: Ensures data integrity and smooth experience</li>
-    //     </ul>
-    //     </div>
-    //     <div className='project-btn'>
-    //       <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
-    //       <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
-    //     </div>
-    //     </div>
-    //   </div>
-
-    //   <div className='second-project box'>
-    //     <img src={staynestImg} className='shadow img'></img>
-    //     <div className='project-content'>
-    //     <div className='desc'>
-    //     <h2>StayNest</h2>
-    //     <h3>
-    //     Using:<img src={htmlImg}></img>
-    //       <img src={jsImg}></img>
-    //       <img src={bootstrapImg}></img>
-    //       <img src={nodeImg}></img>
-    //       <img src={expressImg} style={{backgroundColor: "white"}}></img>
-    //       <img src={npmImg}></img>
-    //       <img src={mongoImg}></img>
-    //     </h3>
-    //     <h3>Key Features:</h3>
-    //     <ul>
-    //       <li>User Authentication: Secure login and sign-up</li>
-    //       <li>Listing Management: Full CRUD operations for property listings</li>
-    //       <li>Map Integration: Interactive Mapbox maps for location display</li>
-    //       <li>User Access Control: Only listing owners can edit/delete their properties</li>
-    //       <li>Reviews and Ratings: Add, view, and delete reviews on listings</li>
-    //       <li>Input Validations: Ensures data integrity and smooth experience</li>
-    //     </ul>
-    //     </div>
-    //     <div className='project-btn'>
-    //       <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
-    //       <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
-    //     </div>
-    //     </div>
-    //   </div>
-
-    //   <div className='second-project box'>
-    //     <img src={staynestImg} className='shadow img'></img>
-    //     <div className='project-content'>
-    //     <div className='desc'>
-    //     <h2>StayNest</h2>
-    //     <h3>
-    //     Using:<img src={htmlImg}></img>
-    //       <img src={jsImg}></img>
-    //       <img src={bootstrapImg}></img>
-    //       <img src={nodeImg}></img>
-    //       <img src={expressImg} style={{backgroundColor: "white"}}></img>
-    //       <img src={npmImg}></img>
-    //       <img src={mongoImg}></img>
-    //     </h3>
-    //     <h3>Key Features:</h3>
-    //     <ul>
-    //       <li>User Authentication: Secure login and sign-up</li>
-    //       <li>Listing Management: Full CRUD operations for property listings</li>
-    //       <li>Map Integration: Interactive Mapbox maps for location display</li>
-    //       <li>User Access Control: Only listing owners can edit/delete their properties</li>
-    //       <li>Reviews and Ratings: Add, view, and delete reviews on listings</li>
-    //       <li>Input Validations: Ensures data integrity and smooth experience</li>
-    //     </ul>
-    //     </div>
-    //     <div className='project-btn'>
-    //       <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
-    //       <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
-    //     </div>
-    //     </div>
-    //   </div>
-
-    // </div>
-    // </div>
   )
 }
 

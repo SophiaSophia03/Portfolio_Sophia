@@ -38,6 +38,7 @@
   transition: 1s;
   cursor: pointer;
   color: black;
+  margin-right: 1rem;
 }
 .btn span{
   margin-left: 1rem;
