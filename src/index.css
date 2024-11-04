@@ -23,3 +23,9 @@ h1{
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), /* Main shine effect */
   inset 0 0 15px rgba(255, 255, 255, 0.3); /* Inner shine */
 }
+.nav-shine{
+  background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

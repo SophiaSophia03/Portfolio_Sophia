@@ -1,0 +1,75 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 10rem 6rem 10rem 6rem;
+}
+.contact-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-para{
+  max-width:600px ;
+  font-size: 1.2rem;
+
+}
+.contact-para a{
+  background: linear-gradient(90deg, rgb(142, 185, 250) 0%, hsla(178, 64%, 65%, 1) 100%);
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-para i{
+  font-size: 1.5rem;
+  color: azure;
+}
+.contact-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 1rem;
+}
+.contact-right label{
+  font-size: 22px;
+  font-weight: 600
+}
+.contact-right input{
+  border: none;
+  width: 40rem;
+  height: 5rem;
+  padding-left: 20px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.765);
+  color:#00052b;
+  font-size: 1.5rem;
+}
+.contact-right textarea{
+  width: 39rem;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.765);
+  color:#00052b;
+  font-family: "PT Serif", serif;
+}
+.submit{
+  width: 15rem;
+}
+.result-message {
+  background-color:#4CAF50;
+  color:azure;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
