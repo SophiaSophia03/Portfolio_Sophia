@@ -1,0 +1,24 @@
+.certificates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 10rem 6rem 10rem 6rem;
+}
+.content-img{
+  width: 500px;
+}
+.cert-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color:#00052b;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.cert-content{
+  padding: 1rem;
+  margin: 1rem;
+}

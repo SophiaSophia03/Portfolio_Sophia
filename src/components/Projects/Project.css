@@ -6,9 +6,14 @@
   gap: 4rem;
   margin: 10rem 6rem 10rem 6rem;
 }
-img{
+.img{
   width: 650px;
   border-radius: 1rem;
+  transition: 1s;
+}
+.img:hover{
+  transform: scale(1.05);
+
 }
 .projects-container{
   display: flex;
@@ -44,3 +49,4 @@ h2{
 h3 img{
   width: 20px;
   margin-left: 1rem;
+}

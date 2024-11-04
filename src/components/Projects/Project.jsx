@@ -18,7 +18,7 @@ function Project() {
     <div className='projects-container'>
 
       <div className='first-project box'>
-        <img src={staynestImg} className='shadow'></img>
+        <img src={staynestImg} className='shadow img'></img>
         <div className='content'>
         <div className='desc'>
         <h2>StayNest</h2>
@@ -49,7 +49,7 @@ function Project() {
       </div>
 
       <div className='second-project box'>
-        <img src={staynestImg} className='shadow'></img>
+        <img src={staynestImg} className='shadow img'></img>
         <div className='content'>
         <div className='desc'>
         <h2>StayNest</h2>
