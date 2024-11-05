@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Project.css"
 import staynestImg from "../../assets/projects/staynest.png"
+import weatherAppImg from "../../assets/projects/WeatherApp.png"
 import nodeImg from '../../assets/icons/Node.png';
 import expressImg from '../../assets/icons/Express.png';
 import bootstrapImg from '../../assets/icons/Bootstrap.png';
@@ -8,6 +9,11 @@ import htmlImg from '../../assets/icons/HTML5.png';
 import jsImg from '../../assets/icons/JavaScript.png';
 import mongoImg from '../../assets/icons/MongoDB.png';
 import npmImg from '../../assets/icons/NPM.png';
+import vitejsImg from '../../assets/icons/Vitejs.png';
+import materialUIImg from '../../assets/icons/MaterialUI.png';
+import reactImg from '../../assets/icons/React.png';
+import cssImg from '../../assets/icons/CSS3.png';
+
 
 
 
@@ -45,28 +51,21 @@ function Project() {
       </div>
 
       <div className='projects-container'>
-      <img src={staynestImg} className='project-img'></img>
+      <img src={weatherAppImg} className='project-img'></img>
       <div className='desc'>
-        <h2>StayNest</h2>
+        <h2>Weather App</h2>
         <br></br>
-        <h3>Using: <img src={htmlImg}></img>
-          <img src={jsImg}></img>
-          <img src={bootstrapImg}></img>
-          <img src={nodeImg}></img>
-          <img src={expressImg} style={{backgroundColor: "white"}}></img>
-          <img src={npmImg}></img>
-          <img src={mongoImg}></img></h3>
-          <p className='project-para'>User Authentication: Secure login and sign-up <br />
-          Listing Management: Full CRUD operations for property listings
-          Map Integration: Interactive Mapbox maps for location display
-          User Access Control: Only listing owners can edit/delete their properties
-          Reviews and Ratings: Add, view, and delete reviews on listings
-          Input Validations: Ensures data integrity and smooth experience</p>
+        <h3>Using: <img src={reactImg}></img>
+        <img src={cssImg}></img>
+          <img src={vitejsImg}></img>
+          <img src={materialUIImg}></img>
+          </h3>
+          <p className='project-para'>WeatherApp utilizes the OpenWeather API to provide real-time weather updates for any location. Users can simply search by city to view detailed weather information, including temperature, humidity, wind speed, and weather conditions, displayed through intuitive icons. The app features a responsive design for a smooth experience across all devices. Additionally, it includes error handling for invalid entries or data retrieval issues, ensuring reliability and ease of use.</p>
           <div className='project-btn'>
-          <a href='https://staynest-uvyb.onrender.com/'>
+          <a href='https://weatherapp-h30o.onrender.com/'>
             <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
           </a>
-          <a href='https://github.com/SophiaSophia03/StayNest.git'>
+          <a href='https://github.com/SophiaSophia03/WeatherApp.git'>
             <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
           </a>
           </div>

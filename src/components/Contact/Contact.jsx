@@ -40,11 +40,11 @@ function Contact() {
           <h2>Get In Touch !!</h2>
           <p className='contact-para'>I’m always excited to connect with like-minded individuals, collaborate on innovative projects, and explore new opportunities!</p>
       <p className='contact-para'>Feel free to connect with me on:</p>
-      <p className='contact-para'><a href='https://www.linkedin.com/in/sophiasophia/'><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;www.linkedin.com/in/sophiasophia</a></p>
-      <p className='contact-para' ><a href='https://github.com/SophiaSophia03'><i class="fa-brands fa-github"></i>&nbsp;&nbsp;&nbsp; https://github.com/SophiaSophia03</a></p>
+      <p className='contact-para'><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;<a href='https://www.linkedin.com/in/sophiasophia/'>www.linkedin.com/in/sophiasophia</a></p>
+      <p className='contact-para' ><i class="fa-brands fa-github"></i>&nbsp;&nbsp;&nbsp;<a href='https://github.com/SophiaSophia03'> https://github.com/SophiaSophia03</a></p>
 
       <br />
-      <p className='contact-para'><a href='https://maps.app.goo.gl/ynZfSRCCSvz5u3f38'><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp; Winnipeg (MB), Canada</a></p>
+      <p className='contact-para'><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;<a href='https://maps.app.goo.gl/ynZfSRCCSvz5u3f38'> Winnipeg (MB), Canada</a></p>
       </div>
 
         <form onSubmit={onSubmit} className='contact-right'>

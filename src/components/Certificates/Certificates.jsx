@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Certificates.css"
 import apnaCollegeImg from "../../assets/certificates/CertApnaCollege.png"
-import ciscoImg from "../../assets/certificates/certCisco.png"
+import ecmaImg from "../../assets/certificates/certEcmaScript.png"
+import businessImg from "../../assets/certificates/certBusiness.png"
+import MoscowImg from "../../assets/certificates/certMoscow.png"
+
 
 function Certificates() {
   return (
@@ -11,14 +14,26 @@ function Certificates() {
 
         <div className='cert1 cert-content'>
         <img src={apnaCollegeImg} className='content-img'></img>
-        <h3 className='desc'>Full Stack Development Course Completion Certificate (60 hrs)</h3>
-        <p></p>
+        <h3 className='desc'>Apna College</h3>
+        <p>Full Stack Development Course Completion Certificate (80 hrs)</p>
         </div>
 
-        <div className='cert1 cert-content'>
-        <img src={ciscoImg} className='content-img'></img>
-        <h3 className='desc'>Full Stack Development Course Completion Certificate (60 hrs)</h3>
-        <p></p>
+        <div className='cert2 cert-content'>
+        <img src={ecmaImg} className='content-img'></img>
+        <h3 className='desc'>LinkedIn Learning</h3>
+        <p>Learning EcmaScript 6+ (1hr 14 min)</p>
+        </div>
+
+        <div className='cert3 cert-content'>
+        <img src={businessImg} className='content-img'></img>
+        <h3 className='desc'>LinkedIn Learning</h3>
+        <p>Business Ethics (1hr)</p>
+        </div>
+
+        <div className='cert4 cert-content'>
+        <img src={MoscowImg} className='content-img'></img>
+        <h3 className='desc'>LinkedIn Learning</h3>
+        <p>Applying Agile MoSCoW Prioritization (1hr)</p>
         </div>
 
       </div>
