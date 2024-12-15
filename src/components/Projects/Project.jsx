@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Project.css"
+import bookifyVideo from "../../assets/projects/Bookify.mp4"
 import staynestImg from "../../assets/projects/staynest.png"
 import weatherAppImg from "../../assets/projects/WeatherApp.png"
 import nodeImg from '../../assets/icons/Node.png';
@@ -13,7 +14,8 @@ import vitejsImg from '../../assets/icons/Vitejs.png';
 import materialUIImg from '../../assets/icons/MaterialUI.png';
 import reactImg from '../../assets/icons/React.png';
 import cssImg from '../../assets/icons/CSS3.png';
-
+import reduxImg from '../../assets/icons/Redux.png';
+import tailwindImg from '../../assets/icons/Tailwind.png';
 
 
 
@@ -25,6 +27,37 @@ function Project() {
         <h1>My Projects</h1>
       </div>
       <div className='project-content'>
+
+      <div className='projects-container'>
+      <video width="100%" controls>
+      <source src={bookifyVideo} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+      <div className='desc'>
+        <h2>Bookify</h2>
+        <br></br>
+        <h3>Using: <img src={htmlImg}></img>
+          <img src={jsImg}></img>
+          <img src={tailwindImg}></img>
+          <img src={mongoImg}></img>
+          <img src={expressImg} style={{backgroundColor: "white"}}></img>
+          <img src={reactImg}></img>
+          <img src={nodeImg}></img>
+          <img src={reduxImg}></img>
+          </h3>
+          <p className='project-para'>Bookify is a feature-rich online bookstore offering a seamless user experience. It includes essential functionalities like secure user authentication, an intuitive admin dashboard for managing inventory, and dynamic book listings. The platform features responsive design, smooth input validations, and clear success/error messages, making it a reliable and user-friendly application for book enthusiasts.
+
+</p>
+          <div className='project-btn'>
+          <a href='https://bookstore-frontend-phy4.onrender.com/'>
+            <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
+          </a>
+          <a href='https://github.com/SophiaSophia03/BookStore.git'>
+            <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
+          </a>
+          </div>
+        </div>
+      </div>
 
       <div className='projects-container'>
       <img src={staynestImg} className='project-img'></img>
