@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Project.css"
 import bookifyVideo from "../../assets/projects/Bookify.mp4"
+import ChatHubVideo from "../../assets/projects/ChatHub.mp4"
 import staynestImg from "../../assets/projects/staynest.png"
 import weatherAppImg from "../../assets/projects/WeatherApp.png"
 import nodeImg from '../../assets/icons/Node.png';
@@ -16,6 +17,8 @@ import reactImg from '../../assets/icons/React.png';
 import cssImg from '../../assets/icons/CSS3.png';
 import reduxImg from '../../assets/icons/Redux.png';
 import tailwindImg from '../../assets/icons/Tailwind.png';
+import daisyUI from '../../assets/icons/DaisyUI.png';
+import zustand from '../../assets/icons/Zustand.png';
 
 
 
@@ -27,6 +30,37 @@ function Project() {
         <h1>My Projects</h1>
       </div>
       <div className='project-content'>
+
+      <div className='projects-container'>
+      <video width="100%" controls>
+      <source src={ChatHubVideo} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+      <div className='desc'>
+        <h2>ChatHub</h2>
+        <br></br>
+        <h3>Using: <img src={htmlImg}></img>
+          <img src={jsImg}></img>
+          <img src={tailwindImg}></img>
+          <img src={mongoImg}></img>
+          <img src={daisyUI}></img>
+          <img src={reactImg}></img>
+          <img src={nodeImg}></img>
+          <img src={zustand} style={{width:"8%"}}></img>
+          </h3>
+          <p className='project-para'>ChatHub is a modern real-time chat application designed for seamless communication and collaboration. Built using the MERN stack, it features secure user authentication, intuitive group chat management, and instant messaging powered by Socket.IO. The application uses Zustand for efficient state management and is styled with Tailwind CSS and DaisyUI, providing a clean, responsive, and visually engaging interface. ChatHub delivers a smooth and user-friendly experience, making it a reliable platform for real-time interactions.
+
+</p>
+          <div className='project-btn'>
+          <a href='https://chathub-07dz.onrender.com/'>
+            <button className='btn'><i class="fa-solid fa-up-right-from-square"></i><span>Live</span></button>
+          </a>
+          <a href='https://github.com/SophiaSophia03/ChatHub'>
+            <button className='btn'><i class="fa-brands fa-github"></i><span>Source Code</span></button>
+          </a>
+          </div>
+        </div>
+      </div>
 
       <div className='projects-container'>
       <video width="100%" controls>
