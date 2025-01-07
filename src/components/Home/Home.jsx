@@ -16,7 +16,7 @@ function Home() {
       <i class="fa-brands fa-linkedin"></i>
       <span>LinkedIn</span></div>
       </a>
-      <a href='https://drive.google.com/file/d/1dSXP3t6ypkuIlvZaomUy_sXnbEn-8G8V/view?usp=sharing'>
+      <a href='https://drive.google.com/file/d/1oHRg5ZwdQF-7RtSE4N06KEgp3QZ05Mtc/view?usp=sharing'>
       <div className='hero-resume btn'>
       <i class="fa-solid fa-file"></i>
       <span>Resume</span></div>
