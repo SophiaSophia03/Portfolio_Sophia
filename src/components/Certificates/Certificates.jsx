@@ -4,7 +4,7 @@ import apnaCollegeImg from "../../assets/certificates/CertApnaCollege.png"
 import ecmaImg from "../../assets/certificates/certEcmaScript.png"
 import businessImg from "../../assets/certificates/certBusiness.png"
 import MoscowImg from "../../assets/certificates/certMoscow.png"
-
+import VBCourseImg from "../../assets/certificates/CertVB.NET.png"
 
 function Certificates() {
   return (
@@ -16,6 +16,12 @@ function Certificates() {
         <img src={apnaCollegeImg} className='content-img'></img>
         <h3 className='desc'>Apna College</h3>
         <p>Full Stack Development Course Completion Certificate (80 hrs)</p>
+        </div>
+
+        <div className='cert5 cert-content'>
+        <img src={VBCourseImg} className='content-img'></img>
+        <h3 className='desc'>Udemy</h3>
+        <p>VB.NET Mastering Beginner to Advance with projects (14.5 hrs)</p>
         </div>
 
         <div className='cert2 cert-content'>
